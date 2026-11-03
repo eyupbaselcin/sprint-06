@@ -1,0 +1,14 @@
+* { box-sizing: border-box; }
+
+html { min-width: 320px; scroll-behavior: smooth; }
+
+body { min-width: 320px; margin: 0; }
+
+button, a, input, select, textarea { -webkit-tap-highlight-color: transparent; }
+
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+	outline: 3px solid #e77a52;
+	outline-offset: 3px;
+}
+
+::selection { background: #d7ed9c; color: #173a30; }
